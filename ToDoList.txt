@@ -1,0 +1,13 @@
+AdsViewer =>
+	- trier par nom, salaire, ville, etc...
+
+header =>
+	- myOffers : annuler l'offre
+	- myApplies : annuler candidature
+	- research : (keywords: admin/probleme/etc...)
+
+footer =>
+	- partenaires
+	- contact admin
+	- messagerie => admin contacted : messages = (BDD, PHP)
+		     => people contacted : "Request(num)" appear if contacted

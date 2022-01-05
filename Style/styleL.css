@@ -1,0 +1,571 @@
+*
+{
+    list-style-type: none;
+    text-align: center;
+    z-index: 1;
+}
+body
+{
+    color: #222244;
+    background: linear-gradient(to right, rgb(160, 192, 192), rgb(96, 96, 128));
+    text-align: center;
+}
+main
+{
+    padding-top: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.auth
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    flex-direction: column;
+}
+.auth article input
+{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+    position: fixed;
+    background: linear-gradient(to bottom right, rgb(8, 16, 32), rgb(64, 64, 64));
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    width: 100%;
+    height: 55px;
+    padding: 0px;
+    bottom: 0px;
+    margin-top: 80px;
+    z-index: 2;
+}
+/**** <HEADER ****/
+    nav h1
+    {
+        box-shadow: inset 0 0 0.5em rgb(190, 190, 240),  0 0 0.8em rgb(190, 190, 240);
+        margin-top: 0px;
+        padding: 10px;
+        color: rgb(190, 190, 240);
+        font-size: xx-large;
+        font-weight: bolder;
+        border-radius: 20px;
+        height: 60px;
+    }
+    nav .main_pages
+    {
+        display: none;
+    }
+    header
+    {
+        background: linear-gradient(to bottom right, rgb(64, 96, 128), rgb(64, 64, 128));
+        border: 5px double rgb(32, 32, 64);
+        border-radius: 10px;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        height: 80px;
+        padding: 5px;
+        z-index: 2;
+    }
+    nav
+    {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex: 4;
+        flex-flow: row wrap;
+        flex-direction: row;
+        justify-content: start;
+        align-content: flex-start;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #ol1 div
+    {
+        width: 60px;
+        height: 60px;
+        border: 5px double rgb(32, 32, 64);
+        border-radius: 50px;
+        padding: 5px;
+        justify-content: start;
+        align-content: flex-start;
+        box-shadow: inset 0 0 1em lightblue, 0 0 2em lightsteelblue;
+    }
+    #ol3 div
+    {
+        width: 60px;
+        height: 60px;
+        border: 5px double rgb(32, 32, 64);
+        border-radius: 50px;
+        background-image: url("https://www.logolynx.com/images/logolynx/5e/5e24b9d8e0346dcc1a2eb7cd8cf7778d.png");
+        background-position: center;
+        background-size: 90%;
+        box-shadow: inset 0 0 1em lightblue, 0 0 2em lightsteelblue;
+    }
+    #ol4 div
+    {
+        width: 60px;
+        height: 60px;
+        border: 5px double rgb(32, 32, 64);
+        border-radius: 50px;
+        background-image: url("https://e7.pngegg.com/pngimages/186/549/png-clipart-user-computer-icons-sprite-sprite-blue-logo-thumbnail.png");
+        background-size: 100%;
+        box-shadow: inset 0 0 1em lightblue, 0 0 2em lightsteelblue;
+    }
+    .sous
+    {
+        display: none;
+    }
+    .deroulant:hover .sous
+    {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to bottom right, rgba(105, 105, 105, 1), rgba(64, 64, 128, 0.6));
+        color: floralwhite;
+        box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+        border: 5px double rgb(32, 32, 96);
+        border-radius: 30px;
+        padding-left: -50px;
+        z-index: 100;
+    }
+    .sous li a
+    {
+        text-decoration: none;
+        color: rgb(32, 32, 96);
+        font-size: 120%;
+        font-weight: bold;
+        padding: 12px;
+    }
+    .sous li a:hover
+    {
+        text-decoration: none;
+        color: lightblue;
+        box-shadow: inset 0 4px 2px -2px lightblue, 0 4px 2px -2px lightsteelblue;
+        border-radius: 10px;
+        font-size: 140%;
+        padding: 6px;
+    }
+    #searchBar
+    {
+        display: inline;
+        padding: 10px;
+        border: none;
+        box-shadow: none;
+    }
+    ol
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #home
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0px;
+        background-image: url("https://img2.freepng.fr/20180410/hge/kisspng-computer-icons-house-logo-home-clip-art-localisation-5acc7fc24c3ac3.7081196815233514903123.jpg");
+        background-size: 100%;
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/**** HEADER> ****/
+
+
+
+
+section
+{
+    display: flex;
+    flex: 4;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+li
+{
+    text-align: left;
+}
+
+/**** advertisment exchange ****/
+.advInfo
+{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.myApply
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    color: floralwhite;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mail
+{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.applyer
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    color: floralwhite;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/**** <PROFILE ****/
+
+.profile
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    color: floralwhite;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.profilesViewer
+{
+    display: flex;
+    flex-direction: column;
+}
+.profilForm
+{
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+.profilesView
+{
+    display: flex;
+    flex-direction: column;
+    border: 5px double rgb(64, 64, 128);
+    border-radius: 10px;
+    box-shadow: inset 0 0 1em lightblue, 0 0 2em lightsteelblue;
+}
+/**** PROFILE> ****/
+
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px double rgb(64, 64, 128);
+    border-radius: 10px;
+    box-shadow: inset 0 0 1em lightblue, 0 0 2em lightsteelblue;
+}
+form article
+{
+    border: 2px double rgb(32, 32, 64);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.advertisment
+{
+    margin: 10px;
+    background-color: lightblue;
+    border: 5px double rgb(32, 32, 64);
+    border-left: 2px ridge;
+    border-top: 2px ridge;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;  
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+    width: 23%;
+    padding: 1%;
+}
+#applyForm
+{
+    background-color: rgb(127, 159, 170);
+    border: 5px double rgb(64, 64, 128);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 5px;
+}
+#postForm
+{
+    justify-self: center;
+    align-self: center;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    padding: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: floralwhite;
+}
+.fieldsSelected
+{
+    margin-top: 20px;
+}
+.fields
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.fieldForm
+{
+    width: 20%;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    color: floralwhite;
+    box-shadow: inset 0 0 1em rgb(0, 0, 64), 0 0 2em lightsteelblue;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fieldsView
+{
+    width: 26%;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    color: floralwhite;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.companiesView
+{
+    width: 20%;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    color: floralwhite;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.profilesView
+{
+    width: 70%;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    color: floralwhite;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 2em lightsteelblue;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/**** <INPUTS ****/
+input
+{
+    box-shadow: inset 0 0.5 1em rgb(190, 190, 240);
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(32, 32, 64));
+    border-radius: 20px;
+    color: floralwhite;
+}
+textarea
+{
+    box-shadow: inset 0 0.5 1em rgb(190, 190, 240);
+    background: linear-gradient(to bottom right, rgb(125, 125, 125), rgb(64, 64, 96));
+    background-color: dimgray;
+    color: floralwhite;
+}
+select
+{
+    background: linear-gradient(to bottom right, rgb(32, 32, 64), rgb(190, 190, 240));
+    background-color: #222244;
+    color: azure;
+}
+input[type=submit]
+{
+    font-weight: bolder;
+    height: 40px;
+    width: 100px;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: lightblue;
+    border: 5px double #bbddee;
+    border-radius: 10px;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 0.5em lightsteelblue;
+    color: #bbddee;
+}
+/**** INPUTS> ****/
+
+/**** <BUTTONS ****/
+a
+{
+    color: black;
+    text-decoration: none;
+}
+button
+{
+    font-weight: bolder;
+    height: 40px;
+    width: 100px;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: lightblue;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    box-shadow: inset 0 0 1em rgb(96, 96, 160), 0 0 0.5em lightsteelblue;
+    color: #222222;
+}
+button:hover
+{
+    background-color: rgb(127, 159, 170);
+    border: 5px double rgb(64, 64, 128);
+    border-radius: 10px;
+    margin: 4px;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 1em blue, 0 0 2em lightsteelblue;
+    color: #222288;
+}
+button:active
+{
+    background-color: rgb(92, 156, 177);
+    border: 5px double rgb(44, 44, 128);
+    border-radius: 10px;
+    margin: 3px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 1em lightblue, 0 0 2em lightsteelblue;
+    color: #2222bb;
+}
+.footBTN
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 10px;
+}
+.submit
+{
+    font-weight: bolder;
+    height: 40px;
+    width: 100px;
+    background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(96, 96, 160));
+    color: #2222bb;
+    border: 5px double rgb(32, 32, 64);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit:hover
+{
+    background-color: rgb(127, 159, 170);
+    border: 5px double rgb(64, 64, 128);
+}
+.submit:active
+{
+    background-color: rgb(92, 156, 177);
+    border: 5px double rgb(44, 44, 128);
+}
+.return
+{
+    background-color: lightblue;
+    border: 5px double rgb(64, 32, 32);
+    box-shadow: inset 0 0 1em rgb(128, 0, 64), 0 0 2em lightsteelblue;
+}
+.return:hover
+{
+    background-color: lightblue;
+    border: 5px double rgb(128, 64, 64);
+    box-shadow: inset 0 0 1em rgb(160, 32, 64), 0 0 2em lightsteelblue;
+}
+.return:active
+{
+    background-color: lightblue;
+    border: 5px double rgb(255, 128, 128);
+    box-shadow: inset 0 0 1em rgb(210, 64, 64), 0 0 2em lightsteelblue;
+}
+.delProfiles
+{
+    box-shadow: inset 0 0 2em darkred, 0 0 0.5em darkred;
+}
+.delCompanies
+{
+    box-shadow: inset 0 0 2em darkred, 0 0 0.5em darkred;
+}
+.delFields
+{
+    box-shadow: inset 0 0 2em darkred, 0 0 0.5em darkred;
+}
+.addProfiles
+{
+    border: 5px double rgb(64, 64, 128);
+    box-shadow: inset 0 0 2em darkseagreen, 0 0 2em rgb(124, 255, 124);
+}
+.addCompanies
+{
+    border: 5px double rgb(64, 64, 128);
+    box-shadow: inset 0 0 2em darkseagreen, 0 0 2em rgb(124, 255, 124);
+}
+.addFields
+{
+    border: 5px double rgb(64, 64, 128);
+    box-shadow: inset 0 0 2em darkseagreen, 0 0 2em rgb(124, 255, 124);
+}
+/**** BUTTONS> ****/

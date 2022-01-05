@@ -1,0 +1,222 @@
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    body
+    {
+        margin-bottom: 0px;
+    }
+    main
+    {
+        margin-bottom: 0px;
+    }
+    .auth
+    {
+        margin-top: 5%;
+        width: 100%;
+        height: 140px;
+    }
+
+    footer
+    {
+        padding-top: auto;
+        padding-bottom: auto;
+        margin-top: 20px;
+        position: sticky;
+    }
+    /**** <HEADER ****/    
+        nav h1
+        {
+            margin-right: auto;
+            margin-left: auto;
+        }
+        nav .main_pages 
+        {
+            position: absolute;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            background: rgb(160, 160, 190);
+            box-shadow: inset 0 0 2em #222244,  0 0 0.5em #222244;
+            color: rgb(190, 190, 240);
+            font-size: xx-large;
+            font-weight: bolder;
+            border-radius: 20px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-right: 10px;
+            margin-left: auto;
+            padding-bottom: 0px;
+        }
+        .mderoule
+        {
+            display: none;
+            z-index: 10;
+        }
+        nav .main_pages a 
+        {
+            width: 70%;
+            color: #222244;
+            font-size: large;
+            font-weight: bolder;
+            padding: 10px;
+            padding-right: 50px;
+        }
+        nav ol
+        {
+            display: none;
+        }
+        #toggle:checked + .mderoule
+        {
+            display: flex;
+            flex-direction: column;
+            z-index: 100;
+        }
+        nav label
+        {
+            font-size: xx-large;
+            padding: 5px;
+        }
+        nav input
+        {
+            display: none;
+        }
+    /**** HEADER> ****/
+
+
+
+    /**** <FORMS ****/
+    .advertisment
+    {
+        width: 45%;
+    }
+    .fieldForm
+    {
+        width: 50%;
+    }
+    .articles
+    {
+        width: 45%;
+    }
+    .profilesViewer
+    {
+        display: flex;
+        flex-direction: unset;
+    }
+    .profilesView
+    {
+        width: 45%;
+    }
+    .fieldsView
+    {
+        width: 45%;
+    }
+    .companiesView
+    {
+        width: 45%;
+    }
+    .profilForm
+    {
+        width: 90%;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .companyForm
+    {
+        margin: 2px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 2px;
+        width: 95%;
+    }
+    #postForm
+    {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 5px;
+        width: 90%;
+    }
+    #passmod
+    {
+        flex-direction: column;
+    }
+    /**** FORMS> ****/
+
+
+
+
+    /**** <INPUTS ****/
+    input
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    textarea
+    {
+        margin-right: auto;
+        margin-left: auto;
+        width:90%;
+    }
+    .profilForm input
+    {
+        width: 60%;
+    }
+    /**** INPUTS> ****/
+
+    /**** <BUTTONS ****/
+    button
+    {
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button:active
+    {
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modProfiles + .modCompanies + .modFields
+    {
+        box-shadow: inset 0 0 1em rgb(114, 179, 122), 0 0 0.5em lightsteelblue;
+        color: #225544;
+        background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(173, 230, 181));
+        border: 5px double rgb(32, 32, 64);
+    }
+    .modProfiles:active + .modCompanies:active + .modFields:active
+    {
+        box-shadow: inset 0 0 1em rgb(162, 255, 173), 0 0 0.5em lightsteelblue;
+        color: #4b8370;
+        background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(173, 230, 181));
+        border: 5px double rgb(32, 64, 96);
+    }
+    .delProfiles + .delCompanies + .delFields
+    {
+        box-shadow: inset 0 0 1em rgb(179, 114, 114), 0 0 0.5em lightsteelblue;
+        color: #552222;
+        background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(230, 173, 173));
+        border: 5px double rgb(64, 32, 32);
+    }
+    .delProfiles:active + .delCompanies:active + .delFields:active
+    {
+        box-shadow: inset 0 0 1em rgb(255, 162, 162), 0 0 0.5em lightsteelblue;
+        color: #834b4b;
+        background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(230, 173, 173));
+        border: 5px double rgb(96, 32, 32);
+    }
+    .addProfiles + .addCompanies + .addFields
+    {
+        box-shadow: inset 0 0 1em rgb(114, 124, 179), 0 0 0.5em lightsteelblue;
+        color: #222e55;
+        background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(173, 177, 230));
+        border: 5px double rgb(32, 35, 64);
+    }
+    .addProfiles:active + .addCompanies:active + .addFields:active
+    {
+        box-shadow: inset 0 0 1em rgb(162, 176, 255), 0 0 0.5em lightsteelblue;
+        color: #4b5183;
+        background: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(173, 183, 230));
+        border: 5px double rgb(32, 42, 96);
+    }
+    /**** BUTTONS> ****/
+}

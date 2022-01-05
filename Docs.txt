@@ -1,0 +1,9 @@
+Passwords :
+- Candidates :
+	- mail : "user@rand.com", password : "rand"
+	- mail : "john@doe.com", password : "doe"
+- Employers :
+	- mail : "bob@hi.com", password : "bobhi"
+	- mail : "ssbb@bros.com", password : "bros"
+- Admins :
+	- mail : "wam@mwa.ex", password : "wam"
